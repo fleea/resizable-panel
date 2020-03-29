@@ -71,7 +71,7 @@ const ResizablePanelChild: FunctionComponent<ResizablePanelChildProps> = ({
         <div
             className="resizable-panel__child"
             ref={panelChild}
-            style={!isLastElement ? getStyle(direction, size) : { flex: 1 }}
+            style={!isLastElement ? getStyle(direction, size) : { flexGrow: 1 }}
         >
             {children}
             {!isLastElement && (

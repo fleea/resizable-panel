@@ -35,17 +35,116 @@ function App() {
                 </div>
             </ResizablePanelChild>
             <ResizablePanelChild>
-                <div className="content">
-                    Aliquam nec efficitur sem, sit amet vehicula justo. Integer
-                    velit turpis, viverra ac nulla eu, volutpat porta felis.
-                    Fusce facilisis iaculis tincidunt. Nulla dictum nisi non
-                    orci congue pretium. Quisque pulvinar magna quis tellus
-                    facilisis faucibus. Integer commodo lobortis nulla. Interdum
-                    et malesuada fames ac ante ipsum primis in faucibus. Nam
-                    eget nisi varius lorem efficitur dignissim id nec tellus.
-                    Phasellus nibh sem, volutpat sed ultricies non, ornare ut
-                    massa. Cras cursus nibh non diam elementum scelerisque.
-                </div>
+                <ResizablePanel direction={Direction.VERTICAL}>
+                    <ResizablePanelChild>
+                        <div className="content">
+                            Aliquam nec efficitur sem, sit amet vehicula justo.
+                            Integer velit turpis, viverra ac nulla eu, volutpat
+                            porta felis. Fusce facilisis iaculis tincidunt.
+                            Nulla dictum nisi non orci congue pretium. Quisque
+                            pulvinar magna quis tellus facilisis faucibus.
+                            Integer commodo lobortis nulla. Interdum et
+                            malesuada fames ac ante ipsum primis in faucibus.
+                            Nam eget nisi varius lorem efficitur dignissim id
+                            nec tellus. Phasellus nibh sem, volutpat sed
+                            ultricies non, ornare ut massa. Cras cursus nibh non
+                            diam elementum scelerisque.
+                        </div>
+                    </ResizablePanelChild>
+                    <ResizablePanelChild>
+                        <ResizablePanel direction={Direction.HORIZONTAL}>
+                            <ResizablePanelChild>
+                                <div className="content">
+                                    Aliquam nec efficitur sem, sit amet vehicula
+                                    justo. Integer velit turpis, viverra ac
+                                    nulla eu, volutpat porta felis. Fusce
+                                    facilisis iaculis tincidunt. Nulla dictum
+                                    nisi non orci congue pretium. Quisque
+                                    pulvinar magna quis tellus facilisis
+                                    faucibus. Integer commodo lobortis nulla.
+                                    Interdum et malesuada fames ac ante ipsum
+                                    primis in faucibus. Nam eget nisi varius
+                                    lorem efficitur dignissim id nec tellus.
+                                    Phasellus nibh sem, volutpat sed ultricies
+                                    non, ornare ut massa. Cras cursus nibh non
+                                    diam elementum scelerisque.
+                                </div>
+                            </ResizablePanelChild>
+                            <ResizablePanelChild>
+                                <div className="content">
+                                    Aliquam nec efficitur sem, sit amet vehicula
+                                    justo. Integer velit turpis, viverra ac
+                                    nulla eu, volutpat porta felis. Fusce
+                                    facilisis iaculis tincidunt. Nulla dictum
+                                    nisi non orci congue pretium. Quisque
+                                    pulvinar magna quis tellus facilisis
+                                    faucibus. Integer commodo lobortis nulla.
+                                    Interdum et malesuada fames ac ante ipsum
+                                    primis in faucibus. Nam eget nisi varius
+                                    lorem efficitur dignissim id nec tellus.
+                                    Phasellus nibh sem, volutpat sed ultricies
+                                    non, ornare ut massa. Cras cursus nibh non
+                                    diam elementum scelerisque.
+                                </div>
+                            </ResizablePanelChild>
+                            <ResizablePanelChild>
+                                <div className="content">
+                                    Aliquam nec efficitur sem, sit amet vehicula
+                                    justo. Integer velit turpis, viverra ac
+                                    nulla eu, volutpat porta felis. Fusce
+                                    facilisis iaculis tincidunt. Nulla dictum
+                                    nisi non orci congue pretium. Quisque
+                                    pulvinar magna quis tellus facilisis
+                                    faucibus. Integer commodo lobortis nulla.
+                                    Interdum et malesuada fames ac ante ipsum
+                                    primis in faucibus. Nam eget nisi varius
+                                    lorem efficitur dignissim id nec tellus.
+                                    Phasellus nibh sem, volutpat sed ultricies
+                                    non, ornare ut massa. Cras cursus nibh non
+                                    diam elementum scelerisque.
+                                </div>
+                            </ResizablePanelChild>
+                        </ResizablePanel>
+                    </ResizablePanelChild>
+                    <ResizablePanelChild>
+                        <ResizablePanel direction={Direction.HORIZONTAL}>
+                            <ResizablePanelChild>
+                                <div className="content">
+                                    Aliquam nec efficitur sem, sit amet vehicula
+                                    justo. Integer velit turpis, viverra ac
+                                    nulla eu, volutpat porta felis. Fusce
+                                    facilisis iaculis tincidunt. Nulla dictum
+                                    nisi non orci congue pretium. Quisque
+                                    pulvinar magna quis tellus facilisis
+                                    faucibus. Integer commodo lobortis nulla.
+                                    Interdum et malesuada fames ac ante ipsum
+                                    primis in faucibus. Nam eget nisi varius
+                                    lorem efficitur dignissim id nec tellus.
+                                    Phasellus nibh sem, volutpat sed ultricies
+                                    non, ornare ut massa. Cras cursus nibh non
+                                    diam elementum scelerisque.
+                                </div>
+                            </ResizablePanelChild>
+                            <ResizablePanelChild>
+                                <div className="content">
+                                    Aliquam nec efficitur sem, sit amet vehicula
+                                    justo. Integer velit turpis, viverra ac
+                                    nulla eu, volutpat porta felis. Fusce
+                                    facilisis iaculis tincidunt. Nulla dictum
+                                    nisi non orci congue pretium. Quisque
+                                    pulvinar magna quis tellus facilisis
+                                    faucibus. Integer commodo lobortis nulla.
+                                    Interdum et malesuada fames ac ante ipsum
+                                    primis in faucibus. Nam eget nisi varius
+                                    lorem efficitur dignissim id nec tellus.
+                                    Phasellus nibh sem, volutpat sed ultricies
+                                    non, ornare ut massa. Cras cursus nibh non
+                                    diam elementum scelerisque.
+                                </div>
+                            </ResizablePanelChild>
+                        </ResizablePanel>
+                    </ResizablePanelChild>
+                </ResizablePanel>
             </ResizablePanelChild>
         </ResizablePanel>
     );

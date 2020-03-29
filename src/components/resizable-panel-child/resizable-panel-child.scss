@@ -3,7 +3,7 @@
         position: relative;
         display: flex;
         border-right: 1px solid rgba(0, 0, 0, 0.4);
-        .resizable-panel--vertical & {
+        .resizable-panel--vertical > & {
             border-right: none;
             border-bottom: 1px solid rgba(0, 0, 0, 0.4);
         }
@@ -18,7 +18,7 @@
         bottom: auto;
         cursor: col-resize;
         transition: all 0.4s;
-        .resizable-panel--vertical & {
+        .resizable-panel--vertical > .resizable-panel__child > & {
             height: 10px;
             width: 100%;
             top: auto;

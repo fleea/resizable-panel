@@ -11,10 +11,60 @@
 
 .content {
     padding: 1rem;
-    background-color: #313131;
     color: #d1d4c9;
 }
 
 body {
-    background-color: #414141;
+    background-color: #313131;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:vertical {
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    min-height: 30px;
+}
+
+::-webkit-scrollbar:hover {
+    background-color: rgba(255, 255, 255, 0.09);
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, 0.61);
+    -webkit-border-radius: 100px;
+}
+
+/* add vertical min-height & horizontal min-width */
+::-webkit-scrollbar-thumb:vertical {
+    min-height: 10px;
+}
+::-webkit-scrollbar-thumb:horizontal {
+    min-width: 10px;
+}
+
+.white {
+    &::-webkit-scrollbar,
+    ::-webkit-scrollbar {
+        background-color: rgba(120, 120, 120, 0);
+    }
+    &::-webkit-scrollbar:hover,
+    ::-webkit-scrollbar:hover {
+        background-color: rgba(120, 120, 120, 0.09);
+    }
+    &::-webkit-scrollbar-thumb,
+    ::-webkit-scrollbar-thumb {
+        background: rgba(120, 120, 120, 0.5);
+    }
+    &::-webkit-scrollbar-thumb:active,
+    ::-webkit-scrollbar-thumb:active {
+        background: rgba(120, 120, 120, 0.61);
+    }
 }
