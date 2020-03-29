@@ -1,0 +1,34 @@
+.resizable-panel {
+    &__child {
+        position: relative;
+        display: flex;
+        border-right: 1px solid rgba(0, 0, 0, 0.4);
+        .resizable-panel--vertical & {
+            border-right: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+        }
+    }
+    &__handler {
+        position: absolute;
+        height: 100%;
+        width: 10px;
+        top: 0;
+        right: 0;
+        left: auto;
+        bottom: auto;
+        cursor: col-resize;
+        transition: all 0.4s;
+        .resizable-panel--vertical & {
+            height: 10px;
+            width: 100%;
+            top: auto;
+            right: auto;
+            left: 0;
+            bottom: 0;
+            cursor: row-resize;
+        }
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    }
+}

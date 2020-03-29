@@ -1,0 +1,10 @@
+.resizable-panel {
+    display: flex;
+    align-items: stretch;
+    &--horizontal {
+        flex-direction: row;
+    }
+    &--vertical {
+        flex-direction: column;
+    }
+}
