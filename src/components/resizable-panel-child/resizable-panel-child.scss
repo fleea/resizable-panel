@@ -7,6 +7,9 @@
             border-right: none;
             border-bottom: 1px solid rgba(0, 0, 0, 0.4);
         }
+        > * {
+            flex: 1;
+        }
     }
     &__handler {
         position: absolute;
